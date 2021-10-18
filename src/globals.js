@@ -7,7 +7,7 @@ export const black = '#000';
 export const blackish = '#666';
 
 export const background = '#BF0436';
-export const color = '#742785';
+export const color = '#6804BF';
 export const selectColor = '#D96704';
 
 export const blue = '#6B98BF';

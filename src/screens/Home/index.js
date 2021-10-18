@@ -12,6 +12,7 @@ import { background } from '../../globals';
 import {
     Container,
 
+    BackgroundCircle,
     Img,
 
     Content,
@@ -29,8 +30,7 @@ export default function Home () {
 
     return(
         <Container>
-            <StatusBar backgroundColor={background} barStyle='light-content' />
-
+            <BackgroundCircle />
             <Img source={BarberImg} />
 
             <Content>
