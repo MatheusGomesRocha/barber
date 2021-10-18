@@ -8,7 +8,7 @@ const MainStack = createStackNavigator();
 export default () => {
     return(
         <MainStack.Navigator>
-            <MainStack.Screen component={HomeScreen} options={{headerTitle: null, headerBackground: 'transparent'}} />
+            <MainStack.Screen name="home" component={HomeScreen} options={{headerTitle: '', headerTransparent: true}} />
         </MainStack.Navigator>
     )
 }
