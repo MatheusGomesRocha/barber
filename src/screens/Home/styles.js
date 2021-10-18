@@ -27,7 +27,7 @@ export const Content = styled.View`
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 450px;
+    height: 430px;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     padding: 30px 20px;
@@ -57,7 +57,6 @@ export const BottomText = styled.Text`
     color: ${black};
     font-size: 16px;
     margin-top: 3px;
-    font-weight: 500;
 `;
 export const Button = styled.TouchableOpacity`
     background-color: ${color};
