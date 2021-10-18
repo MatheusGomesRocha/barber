@@ -1,5 +1,6 @@
 import React from "react";
 import { StatusBar } from "react-native";
+import { useNavigation } from "@react-navigation/native";
 
 import AntDesign from 'react-native-vector-icons/AntDesign';        // clock
 import Ionicons from 'react-native-vector-icons/Ionicons';        // clipboard
@@ -35,6 +36,8 @@ import {
 } from './styles';
 
 export default function Info () {
+    const navigation = useNavigation();
+
     return(
         <Container>
             <StatusBar backgroundColor="#fff" barStyle="dark-content" />
@@ -87,7 +90,7 @@ export default function Info () {
             </LocationArea>
 
             <ButtonArea>
-                <Button>
+                <Button onPress={() => navigation.navigate('appointment')}>
                     <ButtonText>See calendar</ButtonText>
                 </Button>
 
