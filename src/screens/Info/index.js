@@ -62,8 +62,8 @@ export default function Info () {
                     </IconArea>
 
                     <ServicesItemColumn>
-                        <TopText>Start from</TopText>
-                        <BottomText>R$ 20.00</BottomText>
+                        <TopText>Services</TopText>
+                        <BottomText>15+ services</BottomText>
                     </ServicesItemColumn>
                 </ServicesItem>
 
@@ -92,7 +92,7 @@ export default function Info () {
                 </Button>
 
                 <MessageButton>
-                    <MaterialIcons name="message" color={selectColor} size={30} />
+                    <MaterialIcons name="message" color={selectColor} size={25} />
                 </MessageButton>
             </ButtonArea>
         </Container>
