@@ -1,4 +1,6 @@
 import React from 'react';
+import { StatusBar } from 'react-native';
+import { useNavigation } from '@react-navigation/native';
 
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
@@ -23,8 +25,12 @@ import {
 } from './styles';
 
 export default function Home () {
+    const navigation = useNavigation();
+
     return(
         <Container>
+            <StatusBar backgroundColor={background} barStyle='light-content' />
+
             <Img source={BarberImg} />
 
             <Content>
@@ -61,7 +67,7 @@ export default function Home () {
                     </ContentColumn>
                 </ContentRow>
 
-                <Button>
+                <Button onPress={() => navigation.navigate('info')}>
                     <ButtonText>Details</ButtonText>
                 </Button>
             </Content>

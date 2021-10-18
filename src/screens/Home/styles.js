@@ -49,14 +49,14 @@ export const BottomText = styled.Text`
     color: ${color};
     font-size: 16px;
     margin-top: 3px;
-    font-weight: bold;
+    font-weight: 500;
 `;
 export const Button = styled.TouchableOpacity`
     background-color: ${color};
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 52px;
+    height: 58px;
     border-radius: 26px;
     margin-top: 20px;
 `;
